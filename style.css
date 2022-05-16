@@ -23,6 +23,7 @@ header {
         background-position: -500px -30px;
         background-size: 999px;
         margin:0px;
+        padding:30px 20px 10px 30px;
 
 }
 
@@ -140,22 +141,25 @@ ul a {
 
 
 @media screen and (max-width: 665px) {
-    .clip1 {
+    .clip1  {
         height: 97px;
         width:190px;
         background-size: 200px;
+        
     }
 
     .clip2 {
         height: 97px;
         width:190px;
         background-size: 200px;
+        
     }
 
     .clip3 {
         height: 97px;
         width:190px;
         background-size: 200px;
+        
     }
 }
 
