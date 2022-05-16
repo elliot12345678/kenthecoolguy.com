@@ -14,10 +14,16 @@ header {
     background-repeat: no-repeat;
     text-align: center;
     background-position: 0px -100px;
+
   
 }
 
+@media  screen and (max-width: 665px) {
+    header {
+        background-position: -500px -30px;
+}
 
+}
 
 .mobile {
     display: none;
@@ -37,7 +43,7 @@ header {
    
 
 
-a{
+ nav a{
     text-decoration: none;
     padding: 10px;
     margin: auto;
@@ -46,6 +52,16 @@ a{
     
 
 } 
+
+@media screen and (max-width: 665px) {
+    a {
+        padding: 5px;
+        color: white;
+    }
+    
+}
+
+/* logo */
 
 .logo {
     background-image: url("imgi/logo.jpg");
@@ -64,34 +80,69 @@ a{
     }
     
 }
+/*section*/
 
 section{
     background: white;
     color: black;
-    padding: 30px;
+    padding: 100px;
+    background-size: 500px;
     
+}
+
+/* clip */
+
+
+
+ul a {
+
+        display: flex;
+        background-color: red;
+        width: 100px;
+        flex-direction: column;
+        margin: 10px;
+        
 
 }
 
-.clip{
-    padding:10px;
-    display: inline-block;
-    width: 100px;
-    margin:10px;
-    flex-direction: row-reverse;
-    height:auto;
-    width: auto;
+/* clip */
+
+.clip1 {
+    background-image: url(imgi/clip1.jpg);
+    height: 310px;
+    width: 560px;
+    background-repeat: no-repeat;
+    text-indent: -999999999px;
 }
+
+.clip2 {
+    background-image: url(imgi/clip2.jpg);
+    height: 310px;
+    width: 560px;
+    background-repeat: no-repeat;
+    text-indent: -999999999px;
+}
+
+.clip3 {
+    background-image: url(imgi/clip3.jpg);
+    height: 310px;
+    width: 560px;
+    background-repeat: no-repeat;
+    text-indent: -999999999px;
+}
+
+
 
 @media screen and (max-width: 556px) {
-    div{
-        flex-wrap: wrap-reverse;
+    ul a{
+        flex-direction: column-reverse;
     }
-
-    
 }
+
+/* footer*/
 
 footer{
     background: black;
     padding:10px;
+    margin: auto;
 }
