@@ -6,7 +6,7 @@ body{
 
 }
 
-header {
+.lower {
     color: white;
     padding:90px;
     background-image: url("imgi/header.jpg");
@@ -14,12 +14,10 @@ header {
     background-repeat: no-repeat;
     text-align: center;
     background-position: 0px -100px;
-
-  
 }
 
 @media  screen and (max-width: 665px) {
-    header {
+    .lower {
         background-position: -500px -30px;
         background-size: 999px;
         margin:0px;
@@ -44,22 +42,31 @@ header {
     }
     
 }
-   
+
+.upper {
+    background-color: black;
+    text-align: center;
+    margin: 0px;
+    
+}
 
 
- nav a{
+header ul a{
     text-decoration: none;
     padding: 10px;
-    margin: auto;
+    margin: 0px;
     color: white;
     font-size: large;
+    display: inline-block;
+    background-color: black;
+    text-align: center;
     
 
 } 
 
 @media screen and (max-width: 665px) {
-    nav a {
-        padding: 0px;
+    header ul a {
+        padding: 0px 10px 0px 10px;
         color: white;
         font-size: medium;
         margin: 0px;
@@ -101,7 +108,7 @@ section{
 
 
 
-ul a {
+section ul a {
 
         display: flex;
         background-color: red;
